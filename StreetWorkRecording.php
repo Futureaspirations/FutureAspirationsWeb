@@ -7,8 +7,7 @@ and open the template in the editor.
 <html>
     <head>
         <title>Street Work Recording</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <?php include_once "header.php"; ?>
     </head>
     <body>
         <div>Street Work Recording</div>
