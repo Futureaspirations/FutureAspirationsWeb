@@ -30,6 +30,7 @@
                 <li><a href="StreetWorkRecording.php">Street Work Recording</a></li>
                 <li><a href="TimeSheetSubmission.php">Time Sheet Submission</a></li>
                 <li><a href="VolunteerTimesheet.php">Volunteer Timesheet</a></li>
+                <li><a href="ImpactStatementRecording.php">Impact Statement Recording</a></li>
                 <li><a href="registerPage.php">Register</a></li>
                 <li><a href="#">Contact</a></li> 
               </ul>
