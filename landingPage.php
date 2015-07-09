@@ -33,8 +33,6 @@
     </div>
     <div class="push"></div>
     </div>
-   		<script src="http://code.jquery.com/jquery.js"></script>
-    	<script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
   	</body>
   	<?php include_once "footer.php"; ?>
 </html>

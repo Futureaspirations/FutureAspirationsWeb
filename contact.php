@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- CSS -->
     <link href="bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="landing-page.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <?php include_once "header.php"; ?>
 </head>
 <body>
@@ -18,19 +18,19 @@
 		have an office base will be able to be contacted via other means.</h3>
 		<tr>
 			<td><h3><br>John Gilfillan</h3>Chief Executive Officer <br> </td>
-			<td>john.gilfillan@futureaspirations.co.uk<br><br></td>
+			<td><a href="mailto:john.gilfillan@futureaspirations.co.uk">john.gilfillan@futureaspirations.co.uk</a><br><br></td>
 		</tr>
 		<tr>
 			<td><h3>Liz Goold</h3> Chief Financial Officer and Business Development Manager <br> </td>
-			<td>liz.goold@futureaspirations.co.uk<br><br></td>
+			<td><a href="mailto:liz.goold@futureaspirations.co.uk">liz.goold@futureaspirations.co.uk</a><br><br></td>
 		</tr>
 		<tr>
 			<td><h3>Michael Wallace</h3> Company Secretary <br> </td>
-			<td>michael.wallace@futureaspirations.co.uk<br><br></td>
+			<td><a href="mailto:michael.wallace@futureaspirations.co.uk">michael.wallace@futureaspirations.co.uk</a><br><br></td>
 		</tr>
 	</div>
 	</div>
 	</div>
+	<?php include_once "footer.php"; ?>
 </body>
-<?php include_once "footer.php"; ?>
 </html>
