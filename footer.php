@@ -7,9 +7,11 @@
     <!-- CSS -->
     <link href="bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="landing-page.css" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     </head>
 	<body>
-	<footer>
+	<div class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -30,6 +32,11 @@
                 </div>
             </div>
         </div>
-        </footer>
+        <script>
+        if(navigator.platform == 'iPad' || navigator.platform == 'iPhone' || navigator.platform == 'iPod'){ 
+     	$("#footer").css("position", "static"); 
+		};
+		</script>
+        </div>
     </body>
 </head>

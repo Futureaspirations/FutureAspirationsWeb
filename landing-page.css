@@ -160,13 +160,18 @@ h6 {
     }
 }
 
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  padding-top: 15px; 
-  padding-bottom: 15px;
-  background-color: #f8f8f8;
+.footer,.push {
+	height:75px;
+  	background-color: #f8f8f8;
+}
+
+.wrapper {
+	padding-top: 15px;
+	padding-bottom: 10px;
+	min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -75px; /* the bottom margin is the negative value of the footer's height */
 }
 
 p.copyright {

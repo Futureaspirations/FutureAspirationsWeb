@@ -6,7 +6,7 @@
 		<link href="landing-page.css" rel="stylesheet">
 	</head>
 	<body>
-		<a name="about"></a>
+	<div class="wrapper">
     	<div class="intro-header">
         <div class="container">
             <div class="row">
@@ -30,6 +30,8 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="push"></div>
     </div>
    		<script src="http://code.jquery.com/jquery.js"></script>
     	<script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
