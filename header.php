@@ -65,7 +65,7 @@
                 <li><a href="VolunteerTimesheet.php">Volunteer Timesheet</a></li>
                 <li><a href="ImpactStatementRecording.php">Impact Statement Recording</a></li>-->
                 <li><a href="registerPage.php">Register</a></li>
-                <li><a href="#">Contact</a></li> 
+                <li><a href="contact.php">Contact</a></li> 
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
