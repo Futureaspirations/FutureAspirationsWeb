@@ -6,7 +6,7 @@
 </head>
 <body>
 	<p1>This is the Registration Page</p1>
-
+	<div class="top-page">
 	<div name="registrationForm" style="width: 250px; border: 2px solid black; margin: 5px;">
 		 <form action="register.php" method="post">
                     <table name="login" >
@@ -24,6 +24,6 @@
                     </table>
            </form>
     </div>
-
+	</div>
 </body>
 </html>
