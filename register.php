@@ -1,42 +1,39 @@
-
-<?php 
-ini_set('display_errors',1);
-
-
-$servername = "mysql3.clusterdb.net";
-$username = "Group-m67";
-$password = "gwrfa2015";
-$dbname = "Group-m67";
-
-
-
-$conn = new mysqli($servername, $username, $password, $dbname);
-if($conn->connect_error){
-	echo "ohnoes!";
-	die("connection failed: ".$conn->connect_error);
-} else echo "yay! <br>";
-
-
-
-$i = 0;
-$form[$i] = $_POST['user']; $i++;
-$form[$i] = $_POST['pass']; $i++;
-$form[$i] = "n"; $i++; //n stands for normal account
-
-echo $form[0]."<br>";
-echo $form[1]."<br>";
-
-
-
-
-$sql = "INSERT INTO user_data (user, pass, type) VALUES ('$form[0]', '$form[1]', '$form[2]')";
-
-
-if($conn->query($sql) === TRUE) {
-	echo "done!";
-} else {
-	echo "error: ".$sql. "<br>". $conn->error;
-}
-
-$conn->close();
-?>  
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>User Registration Page</title>
+		<link rel="stylesheet" href="css/registercss.css"/>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/registration.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="main">
+				<form class="form" method="post" action="#">
+					<div class="field">
+						<label id="labelFirstName">First Name :</label>
+						<input type="text" name="dfirstname" id="firstname">
+					</div>
+					<div class="field">
+						<label id="labelLastName">Last Name :</label>
+						<input type="text" name="dlastname" id="lastname">
+					</div>
+					<div class="field">
+						<label id="labelEmail">Email :</label>
+						<input type="text" name="demail" id="email">
+					</div>
+					<div class="field">
+						<label id="labelPassword">Password :</label>
+						<input type="password" name="password" id="password">
+					</div>
+					<div class="field">
+						<label id="labelCpassword">Confirm Password :</label>
+						<input type="password" name="cpassword" id="cpassword">
+					</div>
+						<div class="field">
+						<input type="button" name="register" id="register" value="Register">
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>

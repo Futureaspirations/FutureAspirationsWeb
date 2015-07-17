@@ -16,17 +16,18 @@ session_start();
                 <ul>
                     
                     <li><a href="#">Welcome</a></li>           
-                    <li><a href="GroupWorkRecording.html">Group Work Recording</a> </li>
+                    <li><a href="GroupWorkRecording.php">Group Work Recording</a> </li>
                     <li><a href="StreetWorkRecording.php">Street Work Recoding</a></li>
-                    <li><a href="TimeSheetSubmission.html">Time Sheet Submission</a></li>
-                    <li><a href="VolunteerTimesheet.html">Volunteer Timesheet</a></li>
-                    <li><a href="register.html">Register</a></li>
+                    <li><a href="TimeSheetSubmission.php">Time Sheet Submission</a></li>
+                    <li><a href="VolunteerTimesheet.php">Volunteer Timesheet</a></li>
+                    <li><a href="register.php">Register</a></li>
                     <li><a href="#">Contact</a></li> 
                 </ul>
             </div>
             <?php
-            $_SESSION['user']= "user";
-            if(isset($_SESSION['user'])) { ?>
+            //$_SESSION['user']= "user";
+            if(isset($_SESSION['user'])) { 
+            ?>
             <div name="loginPanel" style="border: 2px solid black; margin: 5px;">
                 <form action="login.php" method="post">
                     <table>
@@ -62,7 +63,7 @@ session_start();
             <?php } ?>
     </div>
         <div id="mainPanel"> 
-        </div>
+        </div> 
     </body>
 
     <script>
