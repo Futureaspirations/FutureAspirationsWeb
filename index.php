@@ -8,10 +8,11 @@ session_start();
     <head>
         <title>Future Aspirations</title>
          <?php include_once "header.php"; ?>
+         <link rel="stylesheet" href="css/style.css">
     </head>
     <body> 
 
-        <div name="side" style="width:20%; float: left; border: 2px solid blue; margin: 5px;">
+        <div class="container">
             <div name="navigationPanel" id="nav" style=" margin: 5px;">
                 <ul>
                     
@@ -25,7 +26,7 @@ session_start();
                 </ul>
             </div>
             <?php
-            //$_SESSION['user']= "user";
+           
             if(isset($_SESSION['user'])) { 
             ?>
             <div name="loginPanel" style="border: 2px solid black; margin: 5px;">
